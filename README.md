@@ -1,4 +1,4 @@
-TEST
+TEST 2
 # CRC atlas - velocyto nextflow pipeline
 
 #TODO: documentation
