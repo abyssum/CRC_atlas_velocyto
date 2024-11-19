@@ -9,7 +9,7 @@ Example for 10X data
 $ nextflow run main.nf --input_csv <sampleSheet.csv> --gtf_file <ref_anno.gtf> --masked_repeats <rmsk.gtf> --out_dir <~/outdir/> --platform 10X -profile cluster,conda
 ```
 
-Example for 10X data
+Example for BD data
 
 ```
 $ nextflow run main.nf --input_csv <sampleSheet.csv> --gtf_file <ref_anno.gtf> --masked_repeats <rmsk.gtf> --out_dir <~/outdir/> --platform BD -profile cluster,conda
