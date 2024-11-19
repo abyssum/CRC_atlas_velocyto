@@ -20,6 +20,7 @@ $ nextflow run main.nf -profile cluster,conda
 
 --platform            = [str: 10X/BD] choose the platform the samples were sequenced on (default: "")
 
+
 **Notes**
 
 **Outpur directory
