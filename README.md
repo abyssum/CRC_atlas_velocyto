@@ -18,7 +18,7 @@ $ nextflow run main.nf -profile cluster,conda
 
 --publish_dir_mode    = mode of publishDir directive (default: "copy")
 
---run_10x             = run velocyto run10x command on the samples (default: false - see Note below for details)
+--platform            = [str: 10X/BD] choose the platform the samples were sequenced on (default: "")
 
 **Notes**
 
