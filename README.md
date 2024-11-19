@@ -20,6 +20,8 @@ $ nextflow run main.nf -profile cluster,conda
 
 --platform            = [str: 10X/BD] choose the platform the samples were sequenced on (default: "")
 
+--convert_loom        = [str: true/false] renames the barcodes in the loom file according to the <cohort-sampleID-barcode> convention (this module is tested **only** on ICBI's CRC atlas datasets)
+
 
 **Notes**
 
