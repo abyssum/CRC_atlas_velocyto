@@ -22,6 +22,8 @@ $ nextflow run main.nf -profile cluster,conda
 
 --convert_loom        = [str: true/false] renames the barcodes in the loom file according to the <cohort-sampleID-barcode> convention - this module is tested **only** on ICBI's CRC atlas datasets (default: "false")
 
+--custom_loom_dir     = if `--confert_loom = true` specify the ouput dir for the converted loom files
+
 
 **Notes**
 
