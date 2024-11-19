@@ -22,7 +22,7 @@ $ nextflow run main.nf -profile cluster,conda
 
 --convert_loom        = [str: true/false] renames the barcodes in the loom file according to the <cohort-sampleID-barcode> convention - this module is tested **only** on ICBI's CRC atlas datasets (default: "false")
 
---custom_loom_dir     = if `--confert_loom = true` specify the ouput dir for the converted loom files
+--custom_loom_dir     = if `--confert_loom true` specify the ouput dir for the converted loom files
 
 
 **Notes**
@@ -39,7 +39,7 @@ cohort_2,sample_2,/path/to/Sample2_possorted.bam,/path/to/Sample2_barcodes.tsv
 
 ```
 
-* If you choose the --run_10x true you need to change the input CSV file to specify the cellranger directories instead of specific bam files (not tested yet)
+* If you choose the `--platform 10X` you need to change the input CSV file to specify the cellranger directories instead of specific bam files (not tested yet)
 
 **CSV file (run_10x flag)**
 ```
